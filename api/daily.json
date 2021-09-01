@@ -1,0 +1,32 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Tessema",
+            "dateJoined": 1630514876467,
+            "email": "ninafuchere@gmail.com"
+        },
+        {
+            "id": 2,
+            "name": "Miheret",
+            "dateJoined": 1630515092427,
+            "email": "miheret@gmail.com"
+        }
+    ],
+    "Journal_Entries": [
+        {
+            "id": 1,
+            "concept_covered": "giffygram",
+            "date_of_entry": 1630515092427,
+            "userId": 1,
+            "moodId": 1
+        }
+    ],
+    "Moods": [
+        {
+            "id": 1,
+            "mood": "ok",
+            "date_of_mood": 1630515092427
+        }
+    ]
+}

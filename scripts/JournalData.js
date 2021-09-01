@@ -27,6 +27,20 @@ const journal = [
         concept: "JavaScript ",
         entry: "We work on some real world project fixing the code",
         mood: " It's ok feels like need more of similar work"
+
+    },
+
+    {
+        id: 3,
+        date: "09/10/2021",
+        concept: "postman and api ",
+        entry: "Requesting url using postman",
+        mood: "Ok"
+
     }
+
+
+
+
 ]
-]
+
