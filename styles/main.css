@@ -1,0 +1,44 @@
+
+
+.date{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+#jornalDate {
+    width: 200px;
+}
+
+.mood{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jornalConcept {
+    width: 200px;
+}
+
+.concept{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jornalEntry {
+    width: 200px;
+}
+
+.entry {
+   width: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+#jornalMood {
+    width: 100px;
+}
+form p {
+    border: solid 1px;
+    width: 150px;
+}
