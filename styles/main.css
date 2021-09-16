@@ -1,4 +1,7 @@
 
+header {
+    background-color: bisque;
+}
 
 .date{
     width: 450px;
@@ -41,4 +44,7 @@
 form p {
     border: solid 1px;
     width: 150px;
+}
+.record-btn {
+    margin-top: 5px;
 }
