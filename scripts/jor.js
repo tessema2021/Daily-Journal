@@ -1,17 +1,4 @@
 
-
-export const getJournalEntries = () => {
-    const sortedByDate = journal.sort(
-        (currentEntry, nextEntry) =>
-            Date.parse(currentEntry.date) - Date.parse(nextEntry.date)
-    )
-    return sortedByDate
-}
-
-
-
-
-
 const journal = [
     {
         id: 1,
@@ -32,15 +19,40 @@ const journal = [
 
     {
         id: 3,
-        date: "09/10/2021",
+        date: "09/01/2021",
         concept: "postman and api ",
         entry: "Requesting url using postman",
         mood: "Ok"
+
+    },
+    {
+        id: 4,
+        date: "09/02/2021",
+        concept: "fetching data ",
+        entry: "fetching data from json server and working on postman",
+        mood: "confused"
+
+    },
+
+    {
+        id: 5,
+        date: "09/03/2021",
+        concept: "giffygram ",
+        entry: "fetching api's and display data ",
+        mood: "ok"
+
+    },
+
+
+    {
+        id: 6,
+        date: "09/07/2021",
+        concept: "about addeventListener ",
+        entry: "fetch RandomUser and refresh using button ",
+        mood: "ok"
 
     }
 
 
 
-
 ]
-

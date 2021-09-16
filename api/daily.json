@@ -13,6 +13,20 @@
             "email": "miheret@gmail.com"
         }
     ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "javascript",
+            "description": "it was very challenging",
+            "mood": "ok"
+        },
+        {
+            "id": 2,
+            "title": "postman",
+            "description": "it was very confusing",
+            "mood": "sad"
+        }
+    ],
     "Journal_Entries": [
         {
             "id": 1,
@@ -25,7 +39,17 @@
     "Moods": [
         {
             "id": 1,
-            "mood": "ok",
+            "moodStatus": "ok",
+            "date_of_mood": 1630515092427
+        },
+        {
+            "id": 2,
+            "moodStatus": "sad",
+            "date_of_mood": 1630515092427
+        },
+        {
+            "id": 3,
+            "moodStatus": "happy",
             "date_of_mood": 1630515092427
         }
     ]
