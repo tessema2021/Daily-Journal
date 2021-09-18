@@ -5,26 +5,38 @@ export const PostEntry = () => {
     <div class="main_container">
             <h2>Daily Journal</h2>
             <form action=" ">
-                <fieldset class="date">
-                    <label for="jornalDate"> Date of entry</label>
-                    <input type="date" id="jornalDate">
-                </fieldset>
-                <fieldset class="concept">
-                    <label for="concept">Concept covered </label>
-                    <input type="text" id="jornalConcept">
-                </fieldset>
-                <fieldset class="entry">
-                    <label for="jornalEntry"> Journal entry</label>
-                    <input type="text" id="jornalEntry">
-                </fieldset>
-                <fieldset class="entry">
-                    Mood for the day <select id="jornalMood">
-                        <option>Ok</option>
-                        <option>Happy</option>
-                        <option>Sad</option>
+         <div>
+            <input vale=""
+              name="postDate"
+              class="date__input"
+               type="date"
+               placeholder="Date" />
+          </div>
+          <div>
+              <h3>Title covered</h3>
+               <input value=""
+                  name="postTitle"
+                   class="concept__input"
+                   type="text"
+                   placeholder="text" />
+          </div>
+          <div>
+          <h3>Description</h3>
+          <textarea name="postDescription"
+           class="newPost__input newPost__description"
+           placeholder="text"></textarea>
+        </div>
+        <div>
+          <h3>Mood for the day</h3>     
+           <select id="jornalMood">
+          <option>Ok</option>
+          <option>Happy</option>
+          <option>Sad</option>
 
-                    </select>
-                </fieldset>
+      </select>
+        </div>
+                
+                
 
         <button id="newPost__submit">Save</button>
         <button id="newPost__cancel">Cancel</button>
