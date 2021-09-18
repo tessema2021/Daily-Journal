@@ -1,4 +1,12 @@
 
+html {
+    background-color: cadetblue;
+    /* justify-content: center; */
+}
+main {
+    margin-left: 40px;
+}
+
 header {
     background-color: bisque;
 }

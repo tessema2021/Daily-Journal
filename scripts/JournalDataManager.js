@@ -3,7 +3,7 @@
 
 export const getUsers = () => {
 
-    return fetch("http://localhost:8088/users")
+    return fetch("http://localhost:8090/users")
         .then(response => response.json())
     // .then(parsedResponse => {
     //     //     // do something with response here
@@ -22,7 +22,7 @@ export const usePostCollection = () => {
 }
 
 export const getPosts = () => {
-    return fetch("http://localhost:8088/posts")
+    return fetch("http://localhost:8090/posts")
         .then(response => response.json())
         .then(parsedResponse => {
             postCollection = parsedResponse;
@@ -35,7 +35,7 @@ export const getPosts = () => {
 
 
 export const createPost = postObj => {
-    return fetch("http://localhost:8088/posts", {
+    return fetch("http://localhost:8090/posts", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"

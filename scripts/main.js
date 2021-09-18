@@ -1,10 +1,10 @@
-import { getPosts, getUsers } from "./JournalDataManager.js";
+import { getPosts, getUsers, createPost } from "./JournalDataManager.js";
 import { PostEntry } from "./feed/postEntry.js";
 import { PostList } from "./feed/postList.js";
 
 const allUsers = getUsers()
     .then(apiUsers => {
-        console.log("allUsers", apiUsers)
+        // console.log("allUsers", apiUsers)
     })
 
 
@@ -63,17 +63,17 @@ applicationElement.addEventListener("click", event => {
 
 applicationElement.addEventListener("click", event => {
     event.preventDefault();
-    if (event.target.id === "newPost__save") {
+    if (event.target.id === "newPost__submit") {
         //collect the input values into an object to post to the DB
         const title = document.querySelector("input[name='postTitle']").value
-        const mood = document.querySelector("input[name='postURL']").value
         const description = document.querySelector("textarea[name='postDescription']").value
+        const mood = document.querySelector("#journal_mood").value
         //we have not created a user yet - for now, we will hard code `1`.
         //we can add the current time as well
         const postObject = {
             title: title,
-            mood: mood,
             description: description,
+            mood: mood,
             userId: 1,
             timestamp: Date.now()
         }
