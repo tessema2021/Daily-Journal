@@ -2,7 +2,7 @@
 
 export const PostEntry = () => {
     return `
-    <div class="main_container">
+    <div class="journal_list">
             <h2>Daily Journal</h2>
             <form action=" ">
          <div>
@@ -29,9 +29,9 @@ export const PostEntry = () => {
         <div>
           <h3>Mood for the day</h3>     
            <select id="jornalMood">
-          <option>Ok</option>
-          <option>Happy</option>
-          <option>Sad</option>
+          <option value="ok">Ok</option>
+          <option value="Happy">Happy</option>
+          <option value="Sad">Sad</option>
 
       </select>
         </div>
