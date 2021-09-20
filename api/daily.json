@@ -1,63 +1,59 @@
 {
-    "users": [
-        {
-            "id": 1,
-            "name": "Tessema",
-            "dateJoined": 1630514876467,
-            "email": "ninafuchere@gmail.com"
-        },
-        {
-            "id": 2,
-            "name": "Miheret",
-            "dateJoined": 1630515092427,
-            "email": "miheret@gmail.com"
-        }
-    ],
-    "posts": [
-        {
-            "id": 1,
-            "title": "javascript",
-            "description": "it was very challenging",
-            "mood": "ok"
-        },
-        {
-            "id": 2,
-            "title": "postman",
-            "description": "it was very confusing",
-            "mood": "sad",
-            "timestamp": 1630515092427
-        },
-        {
-            "id": 2,
-            "title": "postman",
-            "description": "it was very confusing",
-            "mood": "sad"
-        }
-    ],
-    "Journal_Entries": [
-        {
-            "id": 1,
-            "concept_covered": "giffygram",
-            "date_of_entry": 1630515092427,
-            "userId": 1,
-            "moodId": 1
-        }
-    ],
-    "Moods": [
-        {
-            "id": 1,
-            "moodStatus": "ok",
-            "date_of_mood": 1630515092427
-        },
-        {
-            "id": 2,
-            "moodStatus": "sad",
-            "date_of_mood": 1630515092427
-        },
-        {
-            "id": 3,
-            "moodStatus": "happy",
-            "date_of_mood": 1630515092427
-        }
-    ]
+  "users": [
+    {
+      "id": 1,
+      "name": "Tessema",
+      "dateJoined": 1630514876467,
+      "email": "ninafuchere@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "Miheret",
+      "dateJoined": 1630515092427,
+      "email": "miheret@gmail.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "javascript",
+      "description": "it was very challenging",
+      "mood": "ok",
+      "timestamp": 1630515092427
+    },
+    {
+      "title": "delete",
+      "description": "deleting the item on the giffygram and daily journal",
+      "mood": "Happy",
+      "userId": 1,
+      "timestamp": 1632155770979,
+      "id": 2
+    }
+  ],
+  "Journal_Entries": [
+    {
+      "id": 1,
+      "concept_covered": "giffygram",
+      "date_of_entry": 1630515092427,
+      "userId": 1,
+      "moodId": 1
+    }
+  ],
+  "Moods": [
+    {
+      "id": 1,
+      "moodStatus": "ok",
+      "date_of_mood": 1630515092427
+    },
+    {
+      "id": 2,
+      "moodStatus": "sad",
+      "date_of_mood": 1630515092427
+    },
+    {
+      "id": 3,
+      "moodStatus": "happy",
+      "date_of_mood": 1630515092427
+    }
+  ]
 }

@@ -9,6 +9,7 @@ main {
 
 header {
     background-color: bisque;
+    width: 300px;
 }
 
 .date{
@@ -55,4 +56,9 @@ form p {
 }
 .record-btn {
     margin-top: 5px;
+}
+.post {
+    border-style: solid;
+    width: 400px;
+   
 }
